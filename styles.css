@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+ form{
+    width: 50%;
+ }
+ /* for selecting  form's all elements */
+
+ form *{
+    width: 100%;
+    height: 25px;
+    margin-top: 5px;
+ }
+ table{
+    width: 50%;
+ }
+ th,td{
+    border: 1px solid black;
+    color:beige;
+    background-color:rgb(0, 123, 255);
+ }
+ h1{
+    color: rgb(5, 135, 35);
+ }
+ td[onClick] {
+   background-color: red;
+   border-radius: 5px;
+   text-align: center;
+   cursor: pointer;
+ }
